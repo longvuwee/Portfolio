@@ -8,7 +8,8 @@
             <h2 class="font-smeilbold text-4xl sm:text-5xl md:text-6xl">
                 Hi! I'm <span style="color: #82aeca" class="poppins">Long</span> Vu <br/>Software <span style="color: #82aeca;" class="poppins">Engineer</span>
             </h2>
-            <p class="text-base sm:text-lg md:text-xl">My </p>
+            <p class="text-base sm:text-lg md:text-xl">My <span style="color: #82aeca" class="poppins">favorite tech</span> include TailwindCSS, Svelte, </p>
+
         </div>
     </section>
 </main>
