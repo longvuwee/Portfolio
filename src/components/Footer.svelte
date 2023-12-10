@@ -1,4 +1,4 @@
-<footer style="background-color: #82aeca;" class="py-10 sm:py-10 border-1 border-solid border-primary flex flex-col gap-4 sm:gap-8 justify-center items-center">
+<footer id="footer" class="py-10 sm:py-10 bg-secondary border-1 border-solid border-primary flex flex-col gap-4 sm:gap-8 justify-center items-center">
     <p class="px-4 py-2 bg-white text-secondary font-medium">
         Connect with me &darr;
     </p>
