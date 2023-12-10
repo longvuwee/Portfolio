@@ -10,8 +10,8 @@
     ]
 
     let benefits = [
-        {trait: 'A open minded person,', description: 'I listen to people '},
-        {trait: 'Enthusiastic about coding,', description: ''},
+        {trait: 'A open minded person', description: 'I listen to people '},
+        {trait: 'Enthusiastic about coding', description: ''},
         {trait: 'And a big gamer', description: 'In my downtime, I spend my time playing competive games that feeds into my competitive side. '}
     ]
 
@@ -68,6 +68,6 @@
                 </div>
             {/each}
         </div>
-        <p class="mx-auto xs:text-xl sm:text-2xl md:text-3xl">I'm <span class="poppins text-secondary">longing</span> to know more about you too </p>
+        <p class="mx-auto xs:text-xl sm:text-2xl md:text-3xl">I'm <span class="poppins text-secondary">longing</span> to know more about you too</p>
     </section>
 </main>
