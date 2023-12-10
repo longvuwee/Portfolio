@@ -4,15 +4,15 @@
     import Step from "./Step.svelte";
 
     let steps = [
-        {name: 'Astral Appetite', icon: './icons/giving-icon.png'},
-        {name: 'UTD Hangout', icon: './icons/friend-icon.png'},
-        {name: '', icon: ''}
+        {name: 'Astral Appetite', icon: './icons/giving-icon.png', href: 'https://comet-cupboard.vercel.app'},
+        {name: 'UTD Hangout', icon: './icons/friend-icon.png', href: 'https://www.figma.com/proto/RgkAsQHpK6W8qijngEyIG7/HangOut-App?type=design&t=8ZGACQQnzhRgfQhN-1&scaling=scale-down&page-id=0%3A1&node-id=3-8&starting-point-node-id=3%3A8&show-proto-sidebar=1&mode=design'},
+        {name: '', icon: '', href: ''},
     ]
 
     let benefits = [
-        {trait: 'A open minded person', description: 'I listen to people '},
-        {trait: 'Enthusiastic about coding', description: ''},
-        {trait: 'Willing to learn', description: ''}
+        {trait: 'A open minded person,', description: 'I listen to people '},
+        {trait: 'Enthusiastic about coding,', description: ''},
+        {trait: 'And a big gamer', description: 'In my downtime, I spend my time playing competive games that feeds into my competitive side. '}
     ]
 
 </script>
@@ -31,7 +31,7 @@
             </a>
         </div>
         <div class="relative grid place-items-center ">
-            <img src={"images/profile2.png"} alt="Profile png" class=" max-h-[70vh] object-cover">
+            <img src={"images/profile1.png"} alt="Profile png" class=" max-h-[70vh] object-cover">
         </div>
     </section>
     <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
@@ -43,10 +43,10 @@
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-10">
             <Step step={steps[0]}>
-                <p class="">Astral Appetite is a recipe website designed to utilize foods within a donation pantry at UTD. Created with <span class="poppins text-secondary">Sveltekit & TailwindCSS</span>. Sveltekit is a Javascript framework </p>
+                <p class="poppins">Astral Appetite is a recipe website designed to utilize foods within a donation pantry at UTD. Created with <span class="poppins text-secondary">Sveltekit & TailwindCSS</span>. Sveltekit is a Javascript framework.</p>
             </Step>
             <Step step={steps[1]}>
-                <p class="">Astral Appetite is a recipe website designed to utilize foods within a donation pantry at UTD. Created with <span class="poppins text-secondary">Sveltekit & TailwindCSS</span>. Sveltekit is a Javascript framework </p>
+                <p class="poppins">UTD Hangout is a moblie application made to connect students at universities through a matching. Designed utilizing <span class="poppins text-secondary">Figma.</span></p>
             </Step>
         </div>
     </section>
@@ -68,6 +68,6 @@
                 </div>
             {/each}
         </div>
-        <p class="mx-auto text-2xl">I'm <span class="poppins text-secondary">longing</span> to know more about you too </p>
+        <p class="mx-auto xs:text-xl sm:text-2xl md:text-3xl">I'm <span class="poppins text-secondary">longing</span> to know more about you too </p>
     </section>
 </main>
