@@ -5,8 +5,11 @@ export default {
     extend: {
       colors:{
         'primary': '#2c5168',
-        'primary-border': '#1e3747',
+        'primary-dark': '#1e3747',
         'secondary': '#82aeca'
+      },
+      screens:{
+        'xs': '390px',
       },
     }
   },
