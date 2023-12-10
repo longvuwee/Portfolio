@@ -8,18 +8,18 @@
     ]
 
     let benefits = [
-        {trait: 'A open minded person', description: 'I listen to people '},
-        {trait: 'Enthusiastic about coding', description: ''},
+        {trait: 'An open minded person', description: 'I am willing to listen to other people\'s perspective no matter the predicament right or wrong'},
+        {trait: 'Enthusiastic about coding', description: 'I am always eager to learn more and more about code wether that be complex algorithms or web dev.'},
         {trait: 'And a big gamer', description: 'In my downtime, I spend my time playing competive games that feeds into my competitive side. '}
     ]
 
 </script>
 
 <main class="flex flex-col flex-1 p-4">
-    <section id="introPage" class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14">
-        <div class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10">
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14">
+        <div class="flex flex-col lg:justify-center text-center lg:text-left lg:pl-28 gap-6 md:gap-8 lg:gap-10">
             <h2 class="font-smeilbold text-4xl sm:text-5xl md:text-6xl">
-                Hi! I'm <span class="poppins text-secondary">Long</span> Vu <br/>Software <span class="poppins text-secondary">Engineer</span>
+                Hi! I'm <span class="poppins text-secondary">Long Vu</span><br/><span class="poppins text-secondary">Software</span> Engineer
             </h2>
             <p class="sm:text-lg md:text-xl">My <span class="poppins text-secondary">favorite tech</span> include C++, Java, HTML, <br>TailwindCSS & Svelte
             </p>
@@ -28,8 +28,8 @@
                 <h4 class="relative">Get In Touch &rarr;</h4>
             </a>
         </div>
-        <div class="relative grid place-items-center">
-            <img src={"images/profile1.jpg"} alt="Profile png" class="object-cover rounded-full">
+        <div class="flex place-items-center justify-center">
+            <img src={"images/profile1.jpg"} alt="Profile png" class="object-fill rounded-full">
         </div>
     </section>
     <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
@@ -61,7 +61,7 @@
                     <p class="poppins text-4xl sm:text-5xl md:text-6xl text-black">0{index+1}</p>
                     <div class="flex flex-col gap-6 sm:gap-8">
                         <h3 class="text-2xl sm:text-3xl md:text-5xl">{benefit.trait}</h3>
-                        <p>{benefit.description}</p>
+                        <p class="poppins">{benefit.description}</p>
                     </div>
                 </div>
             {/each}
