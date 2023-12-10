@@ -58,7 +58,7 @@
         <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
             {#each benefits as benefit, index}
                 <div class="flex gap-6 sm:gap-8">
-                    <p class="poppins text-4xl sm:text-5xl md:text-6xl text-black">0{index+1}</p>
+                    <p class="poppins text-4xl sm:text-5xl md:text-6xl text-secondary">0{index+1}</p>
                     <div class="flex flex-col gap-6 sm:gap-8">
                         <h3 class="text-2xl sm:text-3xl md:text-5xl">{benefit.trait}</h3>
                         <p class="poppins">{benefit.description}</p>
