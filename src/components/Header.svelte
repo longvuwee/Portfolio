@@ -15,13 +15,13 @@
     }
 </script>
 
-<header class={'sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between border broder-solid ' + (y>0 ? ' py-4 bg-primary border-primary-dark' : ' py-6 bg-transparent border-transparent')}>
+<header class={'sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between border ' + (y>0 ? ' py-4 bg-primary border-primary border-b-primary-dark' : ' py-6 bg-transparent border-transparent')}>
     <button on:click={goTop}>
         <h1 class="font-medium">
-            <b class="font-bold poppins">Long</b> Vu
+            <p class="font-bold poppins text-lg">Long Vu</p>
         </h1>
     </button>
-    <div class="sm:flex items-center gap-4 hidden">
+    <div class="sm:flex ml-auto pr-4 items-center gap-4 hidden">
         {#each tabs as tab, index}
             <a href={tab.link} class="duration-200 hover:text-secondary">
                 <p>{tab.name}</p>

@@ -2,9 +2,9 @@
     import Step from "../components/Step.svelte";
 
     let steps = [
-        {name: 'Astral Appetite', icon: './icons/giving-icon.png', href: 'https://comet-cupboard.vercel.app'},
-        {name: 'UTD Hangout', icon: './icons/friend-icon.png', href: 'https://www.figma.com/proto/RgkAsQHpK6W8qijngEyIG7/HangOut-App?type=design&t=8ZGACQQnzhRgfQhN-1&scaling=scale-down&page-id=0%3A1&node-id=3-8&starting-point-node-id=3%3A8&show-proto-sidebar=1&mode=design'},
-        {name: '', icon: '', href: ''},
+        {name: 'Astral Appetite', year: 'November 2023', icon: './icons/giving-icon.png', href: 'https://comet-cupboard.vercel.app'},
+        {name: 'UTD Hangout', year: 'November 2022', icon: './icons/friend-icon.png', href: 'https://www.figma.com/proto/RgkAsQHpK6W8qijngEyIG7/HangOut-App?type=design&t=8ZGACQQnzhRgfQhN-1&scaling=scale-down&page-id=0%3A1&node-id=3-8&starting-point-node-id=3%3A8&show-proto-sidebar=1&mode=design'},
+        {name: '', year: '', icon: '', href: ''},
     ]
 
     let benefits = [
@@ -66,6 +66,6 @@
                 </div>
             {/each}
         </div>
-        <p class="mx-auto xs:text-xl sm:text-2xl md:text-3xl">I'm <span class="poppins text-secondary">longing</span> to know more about you too</p>
+        <p class="mx-auto xs:text-xl sm:text-2xl md:text-3xl">I'm <span class="poppins text-secondary">longing</span> to know more about you too!</p>
     </section>
 </main>
