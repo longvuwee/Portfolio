@@ -8,9 +8,9 @@
     ]
 
     let benefits = [
-        {trait: 'An open minded person', description: 'I am willing to listen to other people\'s perspective no matter the predicament right or wrong'},
-        {trait: 'Enthusiastic about coding', description: 'I am always eager to learn more and more about code wether that be complex algorithms or web dev.'},
-        {trait: 'And a big gamer', description: 'In my downtime, I spend my time playing competive games that feeds into my competitive side. '}
+        {trait: 'An open minded person', description: 'I am willing to listen and understand varying viewpoints no matter their alignment with what I believe to be right or wrong. This mindset extends to more inclusive and open environments'},
+        {trait: 'Enthusiastic about coding', description: 'In my long journey of always learn more and more, I let the open minded spirit foster into my enthusiasm for coding. Eagerly delving into algorithms and web dev, I embrace challenges that fuel my curiosity and drive to improve.'},
+        {trait: 'And a dedicated gamer', description: 'While I am not coding, I immerse myself in competitive games that feeds into my competitive side of striving to be better. Engaging in competitive games not only satisfies my thirst for challenges but also complements my open minded and learning oriented approach. '}
     ]
 
 </script>
@@ -41,7 +41,7 @@
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-10">
             <Step step={steps[0]}>
-                <p class="poppins">Astral Appetite is a recipe website designed to utilize foods within a donation pantry at UTD. Created with <span class="poppins text-secondary">Sveltekit & TailwindCSS.</span></p>
+                <p class="poppins">Astral Appetite is a recipe website designed to utilize foods at the Comet Cupboard, a donation pantry at UTD. Created with <span class="poppins text-secondary">Sveltekit & TailwindCSS.</span></p>
             </Step>
             <Step step={steps[1]}>
                 <p class="poppins">UTD Hangout is a moblie application made to connect students at UTD through a matching algorithm. Designed utilizing <span class="poppins text-secondary">Figma.</span></p>
