@@ -8,8 +8,8 @@
     ]
 
     let benefits = [
-        {trait: 'An open minded person', description: 'I am willing to listen and understand varying viewpoints no matter their alignment with what I believe to be right or wrong. This mindset extends to more inclusive and open environments'},
-        {trait: 'Enthusiastic about coding', description: 'In my long journey of always learn more and more, I let the open minded spirit foster into my enthusiasm for coding. Eagerly delving into algorithms and web dev, I embrace challenges that fuel my curiosity and drive to improve.'},
+        {trait: 'An open minded person', description: 'I am willing to listen and understand varying viewpoints no matter their alignment with what I believe to be right or wrong. This mindset extends to more inclusive and open environments.'},
+        {trait: 'Enthusiastic about coding', description: 'In my long journey of always learning more and more, I let the open minded personality feed into my enthusiasm for coding. Eagerly delving into algorithms and web dev, I embrace challenges that fuel my curiosity and drive to improve.'},
         {trait: 'And a dedicated gamer', description: 'While I am not coding, I immerse myself in competitive games that feeds into my competitive side of striving to be better. Engaging in competitive games not only satisfies my thirst for challenges but also complements my open minded and learning oriented approach. '}
     ]
 
