@@ -29,7 +29,7 @@
             </a>
         </div>
         <div class="flex place-items-center justify-center">
-            <img src={"images/profile2.jpg"} alt="Profile png" class="object-fill rounded-full">
+            <img src={"images/profile2.jpg"} alt="Profile png" class="rounded-full w-72">
         </div>
     </section>
     <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
