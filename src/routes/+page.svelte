@@ -2,9 +2,9 @@
     import Step from "../components/Step.svelte";
 
     let steps = [
-        {name: 'Astral Appetite', year: 'November 2023', icon: './icons/giving-icon.png', href: 'https://comet-cupboard.vercel.app'},
-        {name: 'UTD Hangout', year: 'November 2022', icon: './icons/friend-icon.png', href: 'https://www.figma.com/proto/RgkAsQHpK6W8qijngEyIG7/HangOut-App?type=design&t=8ZGACQQnzhRgfQhN-1&scaling=scale-down&page-id=0%3A1&node-id=3-8&starting-point-node-id=3%3A8&show-proto-sidebar=1&mode=design'},
-        {name: '', year: '', icon: '', href: ''},
+        {name: 'Astral Appetite', year: 'Nov. 2023', icon: './icons/giving-icon.png', href: 'https://comet-cupboard.vercel.app'},
+        {name: 'UTD Hangout', year: 'Nov. 2022', icon: './icons/friend-icon.png', href: 'https://www.figma.com/proto/RgkAsQHpK6W8qijngEyIG7/HangOut-App?type=design&t=8ZGACQQnzhRgfQhN-1&scaling=scale-down&page-id=0%3A1&node-id=3-8&starting-point-node-id=3%3A8&show-proto-sidebar=1&mode=design'},
+        {name: 'Project Kirby', year: 'Jan. 2024 - Jul. 2024', icon: './icons/blogging.png', href: ''},
     ]
 
     let benefits = [
@@ -45,6 +45,9 @@
             </Step>
             <Step step={steps[1]}>
                 <p class="poppins">UTD Hangout is a moblie application made to connect students at UTD through a matching algorithm. Designed utilizing <span class="poppins text-secondary">Figma.</span></p>
+            </Step>
+            <Step step={steps[2]}>
+                <p class="poppins">Project kirby is a blogging website made so that users can create posts from email, text, or just creating a regular post from the website. Designed with <span class="poppins text-secondary">Figma </span>and created with <span class="poppins text-secondary">React.js</span></p>
             </Step>
         </div>
     </section>
